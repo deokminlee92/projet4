@@ -708,7 +708,7 @@ h2 {
     font-size: 17px;
     line-height: 1.4em;
     font-weight: 700;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 h3 {
@@ -813,10 +813,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
