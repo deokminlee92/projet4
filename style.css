@@ -707,9 +707,13 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+
+.reseauSocial {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    margin: auto;
 }
 
 h2 {
