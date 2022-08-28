@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -362,6 +362,14 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -682,7 +690,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
