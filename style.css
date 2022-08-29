@@ -896,9 +896,9 @@ h4 {
 
 .form-control {
     margin: 2px;
-    width: 90%;
+    width: 100%;
     height: 30px;
-    border-color: rgba(0, 0, 0, .1);
+    border: 2px solid rgba(0, 0, 0, .1);
     box-shadow: none;
 }
 
@@ -920,7 +920,7 @@ h4 {
 }
 
 
-
+/*모바일 가로 1024 보다 작은 화면에 적용*/
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -934,7 +934,7 @@ h4 {
         padding-right: 0;
     }
 }
-
+/*모바일 가로 768보다 크로 992보다 작은 화면에 적용*/
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
@@ -942,6 +942,17 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .containerbloc{
+        height: 100%;
+        padding: 20px 20px;
+    }
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -955,7 +966,7 @@ h4 {
         background-attachment: scroll;
     }
 }
-
+/*모바일 가로 992보다 작은 화면에 적용*/
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -985,6 +996,7 @@ h4 {
     }
 }
 
+/*모바일 가로 768보다 작은 화면에 적용*/
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -1134,6 +1146,7 @@ h4 {
     }
 }
 
+/*모바일 가로 768보다 작은 화면에 적용*/
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
