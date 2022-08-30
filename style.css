@@ -942,16 +942,21 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
+
+
     .containerbloc{
         height: 100%;
         padding: 20px 20px;
     }
 
+    .col-sm-6{
+        width: auto;
+        text-align: center;
+    }
+
+    .col-sm-6-bis{
+        margin-top: 15px;
+    }
 
 }
 
@@ -1152,3 +1157,33 @@ h4 {
         text-align: center;
     }
 }
+
+/*데스크탑 가로 993보다 크고 1920보다 작은 화면에 적용*/
+@media (min-width: 993px) and (max-width: 1920px) {
+
+    .site-navigation a{
+        font-size: 1.3em;
+    }
+    .col-sm-6{
+        width: auto;
+        text-align: center;
+    }
+    
+    .col-sm-6-bis{
+        margin-top: 30px;
+    }
+
+    .form-group{
+        font-size: 1.4em;
+    }
+    .btn{
+        font-size: 1.4em;
+    }
+    .col-sm-6-bis p{
+        font-size: 1.3em;
+    }
+    .col-sm-12 p{
+        font-size: 1.3em;
+    }
+}
+
