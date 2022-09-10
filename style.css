@@ -238,12 +238,7 @@ a:hover {
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
 }
-.navbar a{
-    color: white!important;
-    font-weight: 700;
-    font-size: 16px;
-    text-align: left;
-}
+
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
@@ -1049,6 +1044,12 @@ h4 {
     
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+    }
+    .navbar a{
+        color: white!important;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: left;
     }
     .dropdown .dropdown a .caret {
         float: none;
