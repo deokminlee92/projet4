@@ -57,6 +57,10 @@ a:hover {
     padding: 20px 50px;
 }
 
+.bloc-sm1 {
+    padding-top: 20px;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -219,7 +223,7 @@ a:hover {
 
 .d-bloc .panel .a-btn,
 .l-bloc .a-btn,
-.l-bloc .navbar a,
+.l-bloc ,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-sm,
 .l-bloc a .icon-md,
@@ -233,6 +237,12 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+}
+.navbar a{
+    color: white!important;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -331,6 +341,10 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+}
+
+.navbar-nav{
+    margin: 0px -15px;
 }
 
 .nav > li a:hover,
@@ -1025,11 +1039,14 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: #AD5A8B;
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        font-size: 16px;
+        font-weight: 700;
     }
+    
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
     }
